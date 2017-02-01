@@ -17,9 +17,9 @@ class Cloudinary_lib {
     private function _loadConfig() {
         \Cloudinary::config(
                 [
-                    "cloud_name" => "zendsoft",
-                    "api_key" => "792213122617758",
-                    "api_secret" => "B57x_BFqsjK-9r2BGClVIAcUy3Q"
+                    "cloud_name" => "your_cloud_name",
+                    "api_key" => "your_api_key",
+                    "api_secret" => "your_secret_key"
         ]);
     }
 
